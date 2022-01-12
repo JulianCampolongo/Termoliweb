@@ -24,7 +24,7 @@ body {
 /*===================SLIDER DE IMAGENES==========================*/
 
 .carousel-inner {
-    max-height:39rem !important;
+    max-height:36rem !important;
 }
 
 /*===================SECCION NUESTRO EQUIPO IMAGEN==========================*/
@@ -43,7 +43,7 @@ body {
     background-color: #f3f3f3;
     display:flex;
     justify-content: center; 
-    padding-bottom: 300px; 
+    padding-bottom: 15px; 
 }
 
 .mapa {
@@ -56,7 +56,7 @@ body {
 .wrapper-local {
     width:50%;
     margin-left:100px;
-    padding-top:150px;
+    padding-top:60px;
 }
 
 
@@ -91,8 +91,9 @@ body {
 
  #seccion-contacto{
     background-color: #2e2a2a;
-    min-height:500px;
+    min-height:350px;
     position:relative;
+    
 }
 
 /*=========================CONTACTOS FORMULARIO================================*/
@@ -101,7 +102,7 @@ body {
     position:absolute;
     top:50%;
     left:50%;
-    transform: translate(-80%, 80%);
+    transform: translate(-150%, 80%);
     background: #fbfafa;
     border-radius:5px;
     height: ;
@@ -111,11 +112,21 @@ body {
     position:absolute;
     top:50%;
     left:50%;
-    transform: translate(60%, 80%);
+    transform: translate(-23%, 80%);
     background: #fbfafa;
     border-radius:5px;
     height: 70%;
     
+}
+
+#wp{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(100%, 80%);
+    background: #fbfafa;
+    border-radius:5px;
+    height: 70%;
 }
 
 #titulo-formulario {
@@ -182,6 +193,7 @@ footer p{
     }
     #local {
         flex-wrap: wrap;
+        height: 100px;
     }
     .mapa img {
         width:100%;
@@ -224,5 +236,24 @@ footer p{
 }
 
 #loguito{
-    transform: translate(0%, -20%);
+    transform: translate(0%, -22%);
+}
+
+#h1{
+    transform: translate(0%, 70%);
+    margin-bottom: auto;
+}
+
+#wplink{
+    transform: translate(-10%, 110%);
+    display: block;
+}
+
+#servicios img{
+border-radius: 35px;
+}
+
+#icono{
+    height: 60px;
+    transform: translate(140%, 2%);
 }
