@@ -245,15 +245,15 @@ border-radius: 35px;
     display: flex;
     flex-wrap: wrap;
    text-align: center;
-   transform: translate(-10px, 10px);
-   
+   transform: translate(20px, 10px);
+   font-size: small;
 }
 
 #services{
     flex-wrap: wrap;
     font-size: smaller;
     height: 270px;
-    width: 210px;
+    width: 270px;
     transform: translate(-75px);
 }
 
@@ -264,7 +264,7 @@ body{
 #servicios {
     display: flex;
     flex-direction: row;
-    width: 205px;
+    width: 255px;
     flex-wrap: wrap;
     text-align: center;
     align-items: center;
@@ -280,6 +280,7 @@ body{
 
 #servicios h3{
     margin-top: 1rem;
+    
 }
 
 iframe{
