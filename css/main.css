@@ -154,73 +154,11 @@ footer p{
 
 /*=========================MEDIA QUERIES PANTALLA ANCHA================================*/
 
-@media (max-width:1200px){
-    #intro, #equipo {
-        width:90% !important;
-        margin:auto;
-    }
-  
-    #local {
-        flex-wrap: wrap;
-        padding-top:30px;
-   }
-   .wrapper-local {
-    width:90%;
-    margin:auto;
-    padding-top:50px;    
-   }
- 
-}
+
 /*=========================MEDIA QUERIES PANTALLA SM================================*/
 
 
-@media (max-width:768px) {
 
-    #intro, #equipo{
-        width:90% !important;
-        margin:auto;
-    }
-
-    
-    #img-equipo{
-        max-height:20rem !important;
-        width:90%;
-    }
-    .wrapper-local {
-        width:90%;
-        margin:auto;
-        padding-top:50px;    
-    }
-    #local {
-        flex-wrap: wrap;
-        height: 100px;
-    }
-    .mapa img {
-        width:100%;
-        height:auto;
-    }
-    #bg-contactos{
-        top: -120px;
-    }
-
-
-}
-/*=========================MEDIA QUERIES PANTALLA EXTRA-SM================================*/
-
-@media (max-width: 576px) {
-    #servicios-fila-2 {
-        width:100% !important;
-    }
-    #servicios-fila-1 {
-        width:100% !important;
-    }
-
-    .icono-wrap{
-        flex-wrap:wrap !important;
-        justify-content: center !important;
-        text-align: center;
-    }
-}
 
 .logo{
     height: 40px;
@@ -237,6 +175,7 @@ footer p{
 
 #loguito{
     transform: translate(0%, -22%);
+    width: 100%;
 }
 
 #h1{
@@ -257,3 +196,144 @@ border-radius: 35px;
     height: 60px;
     transform: translate(140%, 2%);
 }
+
+@media(max-width: 551px) and (min-width: 500px){
+    #loguito{
+        width: 100%;
+        height: 100%;
+        transform: translate(0px, 0px);
+    }
+  
+}
+
+@media(max-width: 499px) and (min-width: 382px){
+    #loguito{
+        width: 100%;
+        height: 100%;
+        transform: translate(-25px, 0px);
+    }
+  
+}
+
+@media(max-width: 382px) and (min-width: 250px){
+    #loguito{
+        width: 280px;
+        height: 100%;
+        transform: translate(-38px, 0px);
+
+    }
+
+    #termolinav{
+        font-size: small;
+        
+    }
+  
+    .navbar-toggler {
+        
+        
+        transform: translate(95px, 0px);
+}
+.intro{
+    width: 100%;
+    font-size: smaller;
+    flex-wrap: wrap;
+    margin-left: 8px;
+}
+
+#h1servicios{
+    font-size: medium;
+    display: flex;
+    flex-wrap: wrap;
+   text-align: center;
+   transform: translate(-10px, 10px);
+   
+}
+
+#services{
+    flex-wrap: wrap;
+    font-size: smaller;
+    height: 270px;
+    width: 210px;
+    transform: translate(-75px);
+}
+
+body{
+    justify-content: flex-end;
+}
+
+#servicios {
+    display: flex;
+    flex-direction: row;
+    width: 205px;
+    flex-wrap: wrap;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+#servicios img{
+    margin-top: 1rem;
+    width: 150px;
+    height: 150px;
+}
+
+#servicios h3{
+    margin-top: 1rem;
+}
+
+iframe{
+    width: 270px;
+    
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.mapa{
+    width: 200px;
+    height: 200px;
+    
+}
+
+
+.wrapper-local{
+    transform: translate(-250px, 100px);
+    height: 500px;
+    margin-top: 1rem;
+}
+#muchainfo{
+    display: none;
+}
+.muchainfo2{
+    display: none;
+}
+
+
+
+
+}
+@media(max-width: 790px) and (min-width: 551px){
+    #loguito{
+        width: 100%;
+        height: 100%;
+        
+        transform: translate(-90px, -20px);
+    }
+    }
+
+    @media(max-width: 1090px) and (min-width: 791px){
+        #loguito{
+            width: 100%;
+            height: 100%;
+            transform: translate(-40px, -20px);
+        }
+        }
+
+        .navbar-toggler-icon {
+            display: inline-block;
+            width: 1.5em;
+            height: 1.5em;
+            
+            transform: translate(-250px, 0px);
+  
